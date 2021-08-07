@@ -17,21 +17,27 @@
 
 # -- Project information -----------------------------------------------------
 
+
+# == I added the following: ==
+from datetime import date
+
+todaysDate = date.today()
+
 project = 'Project Sol'
-copyright = '2021, Javier Solis'
+copyright = str(todaysDate.year) + ", Javier Solis | Last Update: "+todaysDate.strftime("%m/%d/%Y")
 author = 'Javier Solis'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = 'v0.1'
 
+# ====
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['myst_parser'] # Allows me to use .md files instead of .rst
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -42,12 +48,29 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
+# == I added the following: ==
+master_doc = 'index'
+source_suffix = '.md'
+# ====
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-html_theme = 'alabaster'
+
+# == I added the following: ==
+import furo
+
+html_theme = 'furo'
+html_logo = './images/full-logo.png'
+html_favicon = './images/favicon.ico'
+html_title = "Project Sol"
+
+html_theme_options = {
+   "sidebar_hide_name": True 
+}
+
+# ====
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

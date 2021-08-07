@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666659 8.4666656"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   shape-rendering="crispEdges"
+   inkscape:export-filename="/home/javier/Desktop/Top Secret/favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     inkscape:lockguides="false"
+     width="100cm"
+     gridtolerance="10"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-tangential="true"
+     inkscape:showpageshadow="true"
+     showborder="true"
+     borderlayer="false"
+     inkscape:zoom="16"
+     inkscape:cx="22.78125"
+     inkscape:cy="20.9375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1123"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       units="cm"
+       spacingx="10"
+       spacingy="10" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path20851-3"
+       style="fill:#fcd93b;stroke-width:0;fill-opacity:1"
+       d="M 2.1166664,0.56713431 0,4.2333329 2.1166664,7.8995314 H 6.349999 L 8.4666657,4.2333329 6.349999,0.56713431 Z M 2.7940434,1.7402631 H 5.6726223 L 7.1119118,4.2333329 5.6726223,6.7262657 H 2.7940434 L 1.3546173,4.2333329 Z" />
+    <path
+       id="path1961-7"
+       style="fill:#fcd93b;stroke:#000000;stroke-width:0;fill-opacity:1"
+       d="M 5.5879734,4.2333176 A 1.3546598,1.3546717 0 0 1 4.2333136,5.5879893 1.3546598,1.3546717 0 0 1 2.878654,4.2333176 1.3546598,1.3546717 0 0 1 4.2333136,2.8786461 1.3546598,1.3546717 0 0 1 5.5879734,4.2333176 Z" />
+  </g>
+  <metadata
+     id="metadata87">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Javier</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
