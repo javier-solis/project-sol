@@ -59,6 +59,7 @@ source_suffix = '.md'
 # a list of builtin themes.
 
 # == I added the following: ==
+
 import furo
 
 html_theme = 'furo'
