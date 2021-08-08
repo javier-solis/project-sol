@@ -1,5 +1,6 @@
 # Installing ROS
 
+[Explain what ROS is, in more depth? Potential things to say: ROS is designed with distributed computing in mind (A well-written node makes no assumptions about where in the network it runs) ]
 [Simplified version of how to install ROS on both your laptop and Jetson, with links to their official installation threads at the end]
 
 

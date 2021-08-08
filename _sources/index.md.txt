@@ -32,9 +32,9 @@ forum
 :caption: Development
 :maxdepth: 1
 
-license
 thanks
 Github Repository <https://github.com/javier-solis/project-sol>
+License <https://github.com/javier-solis/project-sol/blob/master/LICENSE>
 fun
 ```
 
