@@ -1,3 +1,0 @@
-# Motors
-
-Content coming soon...

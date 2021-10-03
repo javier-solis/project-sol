@@ -17,6 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
+# The full version, including alpha/beta/rc tags
+release = 'v1'
 
 # == I added the following: ==
 from datetime import date
@@ -24,13 +26,13 @@ from datetime import date
 todaysDate = date.today()
 
 project = 'Project Sol'
-copyright = str(todaysDate.year) + ", Javier Solis | Last Update: "+todaysDate.strftime("%m/%d/%Y")
+copyright = str(todaysDate.year) + ", Javier Solis | Last Updated "+todaysDate.strftime("%b. %d, %Y") + " | Version " + release
 author = 'Javier Solis'
 
-# The full version, including alpha/beta/rc tags
-release = 'v0.1'
+	
+# ===================
 
-# ====
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -63,13 +65,14 @@ source_suffix = '.md'
 import furo
 
 html_theme = 'furo'
-html_logo = './images/full-logo.png'
+html_logo = './images/logos/full-logo.png'
 html_favicon = './images/favicon.ico'
 html_title = "Project Sol"
 
 html_theme_options = {
-   "sidebar_hide_name": True 
+   "sidebar_hide_name": True  #This is Furo specific
 }
+
 
 # ====
 
@@ -77,3 +80,7 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = [ # I added this
+    'css/custom.css'
+]

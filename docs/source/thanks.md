@@ -2,13 +2,13 @@
 
 ## Three Key Individuals
 
-**Ed Moriarty** (MIT Faculty, and First-Year Advisor)  
+**Ed Moriarty** (Edgerton Center Faculty Member and First-Year Advisor for MIT)  
  For introducing to all the below people, helping me learn new electrical engineering parts, being a supportive supervisor, and giving me the opportunity to carry out this project.
 
-**David Iwatsuki** (Former MIT Student, and Ed's Friend)  
+**David Iwatsuki** (Former MIT Student and Ed's Friend)  
 For all the software and hardware troubleshooting help and tips he provided me.
 
-**Arnau Ortega** (Undergraduate student at [University name] in Spain, and once Ed's mentee)  
+**Arnau Ortega** (Undergraduate student at Institut Químic de Sarrià and once Ed's mentee)  
 For helping me understand ROS and it's many components.
 
 ## Other Awesome Folks
@@ -17,7 +17,10 @@ For helping me understand ROS and it's many components.
 For helping me learn a few new things related to software and hardware components.
 
 **John Zang** (Graduate student at MIT)  
-For helping me learn a few electrical parts, and getting me familiar with 4-409.
+For helping me learn how to use/troubleshoot certain electrical parts (like the stepper motor) and getting me familiar with 4-409.
+
+**Yashasvi Raj** (Undergraduate at University of Edinburgh and once Ed's mentee)
+For helping me learn a bit of CAD and helping me in my specific CADs.
 
 ## Outside Resources
 
@@ -25,4 +28,5 @@ For helping me learn a few electrical parts, and getting me familiar with 4-409.
 * Sphinx theme which can be found [here](https://github.com/pradyunsg/furo)
 
 ## Organizations/Groups
-The Edgerton Center
+The Edgerton Center  
+The Snitch Team

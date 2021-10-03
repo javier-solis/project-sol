@@ -1,3 +1,3 @@
 # CAD
 
-Content coming soon...
+(More info coming soon)

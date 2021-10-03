@@ -1,6 +1,6 @@
 # Building
 
-[Summary of the physical building of my specific robot]
+(More info coming soon)
 
 ```{toctree}
 :hidden:
@@ -8,5 +8,6 @@
 cad
 laser-cutting
 construction
-motors
+dc-motors
+stepper-motor
 ```

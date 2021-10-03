@@ -1,4 +1,4 @@
-# Construction
+# AI Applications
 
 (More info coming soon)
 
