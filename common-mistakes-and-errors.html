@@ -3,13 +3,14 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Failures" href="failures.html" /><link rel="prev" title="Motors" href="building/motors.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Failures" href="failures.html" /><link rel="prev" title="AI Applications" href="ai.html" />
 
     <link rel="shortcut icon" href="_static/favicon.ico"/><meta name="generator" content="sphinx-4.1.1, furo 2021.07.05.beta38"/>
         <title>Common Mistakes and Errors - Project Sol</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
     
 
 
@@ -113,8 +114,8 @@
   <p class="caption" role="heading"><span class="caption-text">Main</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="ubuntu/installing-ubuntu.html">Installing Ubuntu</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/pc-ubuntu.html">Ubuntu On Laptop</a></li>
@@ -122,18 +123,23 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="installing-ros.html">Installing ROS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="quick-ros-tutorial.html">Quick ROS Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros-notes.html">ROS Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing-packages.html">Installing Packages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="camera-setup.html">Camera Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slam-test.html">SLAM Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="headless-mode.html">Headless Mode</a></li>
 <li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="building/building.html">Building</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="building/cad.html">CAD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/laser-cutting.html">Laser Cutting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/construction.html">Construction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="building/motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/dc-motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/stepper-motor.html">Stepper Motor</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc-to-jetson.html">PC to Jetson Communication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ai.html">AI Applications</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Common Mistakes and Errors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="failures.html">Failures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="forum.html">Forum</a></li>
@@ -141,6 +147,7 @@
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="thanks.html">Special Thanks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fun.html">For Fun</a></li>
@@ -176,21 +183,21 @@
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="building/motors.html">
+          <a class="prev-page" href="ai.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Motors</div>
+                <div class="title">AI Applications</div>
                 
               </div>
             </a>
         </div>
 
         <div class="related-information">
-              Copyright &#169; 2021, Javier Solis | Last Update: 08/08/2021
+              Copyright &#169; 2021, Javier Solis | Last Updated Oct. 02, 2021 | Website Version v0.22
             |
             Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
               and

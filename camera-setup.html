@@ -3,13 +3,14 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Writing Scripts" href="writing-scripts.html" /><link rel="prev" title="Installing Packages" href="installing-packages.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="SLAM Test" href="slam-test.html" /><link rel="prev" title="Installing Packages" href="installing-packages.html" />
 
     <link rel="shortcut icon" href="_static/favicon.ico"/><meta name="generator" content="sphinx-4.1.1, furo 2021.07.05.beta38"/>
         <title>Camera Setup - Project Sol</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
     
 
 
@@ -90,7 +91,7 @@
       <a href="index.html"><div class="brand">Project Sol</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -114,33 +115,38 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="ubuntu/installing-ubuntu.html">Installing Ubuntu</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/pc-ubuntu.html">Ubuntu On Laptop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/ubuntu-notes.html">Helpful Ubuntu Notes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="installing-ros.html">Installing ROS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="quick-ros-tutorial.html">Quick ROS Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploring-ros.html">Exploring ROS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing-packages.html">Installing Packages</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Camera Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slam-test.html">SLAM Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="headless-mode.html">Headless Mode</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="building/building.html">Building</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="building/cad.html">CAD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/laser-cutting.html">Laser Cutting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/construction.html">Construction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="building/motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/dc-motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/stepper-motor.html">Stepper Motor</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="common-mistakes-and-errors.html">Common Mistakes and Errors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc-to-jetson.html">PC &amp; Jetson</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ai.html">AI Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="common-issues.html">Common Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="failures.html">Failures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="forum.html">Forum</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="thanks.html">Special Thanks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fun.html">For Fun</a></li>
@@ -155,24 +161,119 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <section class="tex2jax_ignore mathjax_ignore" id="camera-setup">
 <h1>Camera Setup<a class="headerlink" href="#camera-setup" title="Permalink to this headline">¶</a></h1>
-<p>[How to set up the camera to 1) test that it works and is up to date, 2) run it as a ROS node]</p>
+<p>We’re now going to set up the foundation of our project and test/see that the camera can generate a point cloud. These instructions will work on both your laptop and Jetson Nano. They are also a simplified version of the instructions from the [IntelRealSense Github]((https://github.com/IntelRealSense/realsense-ros).</p>
+<p><strong>1.</strong><br/>
+Create an empty nest of directories for a <a class="reference external" href="http://wiki.ros.org/catkin">catkin workspace</a>. Essentially, a catkin workspace is where all the files of a ROS project are housed.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir -p ~/catkin_ws/src
+</pre></div>
+</div>
+<p><strong>2.</strong><br/>
+Run the following commands</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/catkin_ws/src
+git clone https://github.com/IntelRealSense/realsense-ros.git
+<span class="nb">cd</span> realsense-ros/
+git checkout <span class="sb">`</span>git tag <span class="p">|</span> sort -V <span class="p">|</span> grep -P <span class="s2">"^2.\d+\.\d+"</span> <span class="p">|</span> tail -1<span class="sb">`</span>
+<span class="nb">cd</span> ..
+catkin_init_workspace
+<span class="nb">cd</span> ..
+</pre></div>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>On this next command I encountered an error on my Jetson Nano that read as followed:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>CMake Error at /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake:113 (message):
+  Project 'cv_bridge' specifies '/usr/include/opencv' as an include dir,
+  which is not found.  It does neither exist as an absolute directory nor in
+  '${{prefix}}//usr/include/opencv'.  Check the issue tracker
+  'https://github.com/ros-perception/vision_opencv/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+[…]
+-- Configuring incomplete, errors occurred!
+[…]
+Invoking "cmake" failed
+</pre></div>
+</div>
+<p>To resolve this, you need to run the following command: <code class="docutils literal notranslate"> <span class="pre">sudo</span> <span class="pre">ln</span> <span class="pre">-s</span> <span class="pre">/usr/include/opencv4/opencv2/</span> <span class="pre">/usr/include/opencv</span></code>. Credits go to <a class="reference external" href="https://answers.ros.org/question/199279/installation-from-source-fails-because-of-cv_bridge-include-dir/?answer=377300#post-id-377300">this thread</a> for the solution. You can now rerun <code class="docutils literal notranslate"><span class="pre">catkin_make</span></code>.
+But now you might also notice a new error:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/opt/ros/melodic/include/cv_bridge/cv_bridge.h:43:10: fatal error: opencv2/core/core.hpp: No such file or directory
+</pre></div>
+</div>
+<p>To fix this, run the following:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>sudo apt -y --allow-downgrades install libopencv-dev=3.2.0+dfsg-4ubuntu0.1
+sudo apt-mark hold libopencv-dev
+</pre></div>
+</div>
+<p>Credits go to <a class="reference external" href="https://answers.ros.org/question/347754/jetson-nano-comes-with-opencv-411-do-i-need-to-downgrade-to-32-for-melodic/?answer=351831#post-id-351831">this thread</a>.</p>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>catkin_make clean
+catkin_make -DCATKIN_ENABLE_TESTING<span class="o">=</span>False -DCMAKE_BUILD_TYPE<span class="o">=</span>Release
+catkin_make install
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It may be possible to replace the above 3 commands with just <code class="docutils literal notranslate"><span class="pre">catkin_make</span></code>. It appeared to work when I tried it, but Intel recommends otherwise.</p>
+</div>
+<p><strong>3.</strong><br/>
+Initialize your workspace</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/catkin_ws
+<span class="nb">source</span> devel/setup.bash
+</pre></div>
+</div>
+<p><strong>4.</strong><br/>
+Setting up your terminal (technically Bash) settings such that they initialize your workspace each time a new terminal window is open. This step is kind of optional, but it’s worth doing to avoid having to do step 3 each time you open a new terminal window to work on your ROS project.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">"source ~/catkin_ws/devel/setup.bash"</span> &gt;&gt; ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For more insight what it means to source your setup.bash file, I recommend checking out these links: <a class="reference external" href="https://stackoverflow.com/questions/56139647/">first</a>, <a class="reference external" href="https://answers.ros.org/question/251292/">second</a></p>
+</div>
+<section id="testing">
+<h2>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h2>
+<p><strong>1.</strong><br/>
+Initializing ROS and launching the roslaunch file</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> character puts a process in the background, allowing us to multitask in the same terminal window</p>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>roscore <span class="p">&amp;</span>
+roslaunch realsense2_camera rs_camera.launch filters:<span class="o">=</span>pointcloud
+</pre></div>
+</div>
+<p><strong>2.</strong></p>
+<p>Run either <code class="docutils literal notranslate"><span class="pre">rosrun</span> <span class="pre">rviz</span> <span class="pre">rviz</span> <span class="pre">&amp;</span></code> or just <code class="docutils literal notranslate"><span class="pre">rviz</span> <span class="pre">&amp;</span></code>. They do the same action of launching <a class="reference external" href="http://wiki.ros.org/rviz">rviz</a>, a platform where we can see the camera’s output</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>rviz must be launched after the camera is plugged into your laptop, and after the above roslaunch has been launched</p>
+</div>
+<p><strong>3.</strong><br/>
+At this point you can see a little bit of what the camera is outputting. We will now refine what we see, focusing on the point cloud. The steps to do this are different between a laptop and a Jetson Nano.</p>
+<p><strong>a.</strong><br/>
+<strong>In your laptop:</strong> Open the rviz window, make your fixed frame the camera_link (on the left), click the add/”+” symbol (on the bottom left), head over to “by topic” –&gt; “depth-registered” –&gt; “points” - -&gt; and toggle “pointcloud”</p>
+<p><strong>b.</strong><br/>
+<strong>In your Jetson:</strong> Open the rviz window, make your fixed frame the camera_link, click “Add”, go to “by topic” –&gt; “depth” –&gt; “color” –&gt; “points” –&gt; and toggle “pointcloud2”</p>
+<p><strong>4.</strong><br/>
+And that’s all there is to it! To quit everything, you can close  the terminal altogether or press <code class="docutils literal notranslate"><span class="pre">CTRL+c</span></code> in it.</p>
+</section>
 </section>
 
       </article>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="writing-scripts.html">
+          <a class="next-page" href="slam-test.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Writing Scripts</div>
+                <div class="title">SLAM Test</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -190,7 +291,7 @@
         </div>
 
         <div class="related-information">
-              Copyright &#169; 2021, Javier Solis | Last Update: 08/08/2021
+              Copyright &#169; 2021, Javier Solis | Last Updated Oct. 03, 2021 | Version v1
             |
             Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
               and
@@ -205,8 +306,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Camera Setup</a><ul>
+<li><a class="reference internal" href="#testing">Testing</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

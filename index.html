@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
     
 
 
@@ -114,33 +115,38 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="ubuntu/installing-ubuntu.html">Installing Ubuntu</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/pc-ubuntu.html">Ubuntu On Laptop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/ubuntu-notes.html">Helpful Ubuntu Notes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="installing-ros.html">Installing ROS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="quick-ros-tutorial.html">Quick ROS Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploring-ros.html">Exploring ROS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing-packages.html">Installing Packages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="camera-setup.html">Camera Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slam-test.html">SLAM Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="headless-mode.html">Headless Mode</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="building/building.html">Building</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="building/cad.html">CAD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/laser-cutting.html">Laser Cutting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="building/construction.html">Construction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="building/motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/dc-motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building/stepper-motor.html">Stepper Motor</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="common-mistakes-and-errors.html">Common Mistakes and Errors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc-to-jetson.html">PC &amp; Jetson</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ai.html">AI Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="common-issues.html">Common Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="failures.html">Failures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="forum.html">Forum</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="thanks.html">Special Thanks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fun.html">For Fun</a></li>
@@ -159,9 +165,9 @@
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-project-sol">
-<h1>Welcome to Project Sol!<a class="headerlink" href="#welcome-to-project-sol" title="Permalink to this headline">¶</a></h1>
-<p>Project Sol is a high-level platform made for supporting advanced camera-based and robotics-based student projects. This platform is centered around the Robotics Operating System (better known as ROS), a software that facilitates the flow of information between different microcontrollers and computers. Specifically, this platform contains a simplified tutorial on how to begin working with ROS, a section for common issues people will encounter alongside their fixes, one well documented starter project based on Intel’s RealSense Depth Camera, and a forum where people can share their own documented ROS projects and share a sense of community.</p>
-<p>Currently, this platform is being developed solely by Javier Solis, an undergraduate student of MIT’s class of 2024.</p>
+<h1>Welcome to Project Sol<a class="headerlink" href="#welcome-to-project-sol" title="Permalink to this headline">¶</a></h1>
+<p>Project Sol is a project geared towards introducing students and newcomers to advanced camera-based and robotics-based topics. This project is centered around the Robot Operating System (better known as <a class="reference external" href="https://www.ros.org/">ROS</a>), a robotic software that facilitates the flow of information between different microcontrollers and computers. The content of this website will teach you how to set up and work with ROS via a well documented project based on Intel’s RealSense Depth Camera. No prerequisite knowledge is expected.</p>
+<p>This project is currently being maintained by Javier Solis, a MIT undergraduate student. You can read more about me <a class="reference internal" href="about-me.html"><span class="doc std std-doc">here</span></a>!</p>
 <section id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
@@ -169,30 +175,33 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ubuntu/installing-ubuntu.html">Installing Ubuntu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing-ros.html">Installing ROS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="quick-ros-tutorial.html">Quick ROS Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploring-ros.html">Exploring ROS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing-packages.html">Installing Packages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="camera-setup.html">Camera Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slam-test.html">SLAM Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="headless-mode.html">Headless Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building/building.html">Building</a></li>
 <li class="toctree-l1"><a class="reference internal" href="writing-scripts.html">Writing Scripts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="arduino.html">Arduino Set Up</a></li>
-<li class="toctree-l1"><a class="reference internal" href="building/building.html">Building</a></li>
-<li class="toctree-l1"><a class="reference internal" href="common-mistakes-and-errors.html">Common Mistakes and Errors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc-to-jetson.html">PC &amp; Jetson</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ai.html">AI Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="common-issues.html">Common Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="failures.html">Failures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="forum.html">Forum</a></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="thanks.html">Special Thanks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fun.html">For Fun</a></li>
 </ul>
 </div>
-<p><em>Version of this platform: v0.1</em></p>
 </section>
 </section>
 
@@ -213,7 +222,7 @@
         </div>
 
         <div class="related-information">
-              Copyright &#169; 2021, Javier Solis | Last Update: 08/08/2021
+              Copyright &#169; 2021, Javier Solis | Last Updated Oct. 03, 2021 | Version v1
             |
             Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
               and
@@ -240,7 +249,7 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Welcome to Project Sol!</a><ul>
+<li><a class="reference internal" href="#">Welcome to Project Sol</a><ul>
 <li><a class="reference internal" href="#contents">Contents</a><ul>
 </ul>
 </li>

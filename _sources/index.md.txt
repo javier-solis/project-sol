@@ -1,8 +1,8 @@
-# Welcome to Project Sol!
+# Welcome to Project Sol
 
-Project Sol is a high-level platform made for supporting advanced camera-based and robotics-based student projects. This platform is centered around the Robotics Operating System (better known as ROS), a software that facilitates the flow of information between different microcontrollers and computers. Specifically, this platform contains a simplified tutorial on how to begin working with ROS, a section for common issues people will encounter alongside their fixes, one well documented starter project based on Intel's RealSense Depth Camera, and a forum where people can share their own documented ROS projects and share a sense of community.  
+Project Sol is a project geared towards introducing students and newcomers to advanced camera-based and robotics-based topics. This project is centered around the Robot Operating System (better known as [ROS](https://www.ros.org/)), a robotic software that facilitates the flow of information between different microcontrollers and computers. The content of this website will teach you how to set up and work with ROS via a well documented project based on Intel's RealSense Depth Camera. No prerequisite knowledge is expected.
 
-Currently, this platform is being developed solely by Javier Solis, an undergraduate student of MIT's class of 2024.
+This project is currently being maintained by Javier Solis, a MIT undergraduate student. You can read more about me [here](about-me)!
 
 
 ## Contents
@@ -13,19 +13,21 @@ Currently, this platform is being developed solely by Javier Solis, an undergrad
 
 introduction
 materials
-terminology
 /ubuntu/installing-ubuntu
 installing-ros
-quick-ros-tutorial
+terminology
+exploring-ros
 installing-packages
 camera-setup
+slam-test
+headless-mode
+/building/building
 writing-scripts
 arduino
-/building/building
-common-mistakes-and-errors
+pc-to-jetson
+ai
+common-issues
 failures
-forum
-
 ```
 
 ```{toctree}
@@ -33,9 +35,8 @@ forum
 :maxdepth: 1
 
 thanks
+about-me
 Github Repository <https://github.com/javier-solis/project-sol>
 License <https://github.com/javier-solis/project-sol/blob/master/LICENSE>
 fun
 ```
-
-_Version of this platform: v0.1_

@@ -3,13 +3,14 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="CAD" href="cad.html" /><link rel="prev" title="Arduino Set Up" href="../arduino.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="CAD" href="cad.html" /><link rel="prev" title="Headless Mode" href="../headless-mode.html" />
 
     <link rel="shortcut icon" href="../_static/favicon.ico"/><meta name="generator" content="sphinx-4.1.1, furo 2021.07.05.beta38"/>
         <title>Building - Project Sol</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
     
 
 
@@ -114,33 +115,38 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../materials.html">Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../terminology.html">Terminology</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../ubuntu/installing-ubuntu.html">Installing Ubuntu</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ubuntu/pc-ubuntu.html">Ubuntu On Laptop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ubuntu/ubuntu-notes.html">Helpful Ubuntu Notes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../installing-ros.html">Installing ROS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../quick-ros-tutorial.html">Quick ROS Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exploring-ros.html">Exploring ROS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../installing-packages.html">Installing Packages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../camera-setup.html">Camera Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../writing-scripts.html">Writing Scripts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slam-test.html">SLAM Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../headless-mode.html">Headless Mode</a></li>
 <li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Building</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="cad.html">CAD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laser-cutting.html">Laser Cutting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="construction.html">Construction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dc-motors.html">Motors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stepper-motor.html">Stepper Motor</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../common-mistakes-and-errors.html">Common Mistakes and Errors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing-scripts.html">Writing Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arduino.html">Arduino Set Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pc-to-jetson.html">PC &amp; Jetson</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ai.html">AI Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../common-issues.html">Common Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../failures.html">Failures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../forum.html">Forum</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../thanks.html">Special Thanks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fun.html">For Fun</a></li>
@@ -160,7 +166,7 @@
         </label>
         <section class="tex2jax_ignore mathjax_ignore" id="building">
 <h1>Building<a class="headerlink" href="#building" title="Permalink to this headline">¶</a></h1>
-<p>[Summary of the physical building of my specific robot]</p>
+<p>(More info coming soon)</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -178,21 +184,21 @@
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../arduino.html">
+          <a class="prev-page" href="../headless-mode.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Arduino Set Up</div>
+                <div class="title">Headless Mode</div>
                 
               </div>
             </a>
         </div>
 
         <div class="related-information">
-              Copyright &#169; 2021, Javier Solis | Last Update: 08/08/2021
+              Copyright &#169; 2021, Javier Solis | Last Updated Oct. 03, 2021 | Version v1
             |
             Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
               and

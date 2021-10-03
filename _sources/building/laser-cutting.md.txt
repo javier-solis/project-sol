@@ -1,3 +1,4 @@
 # Laser Cutting
 
-Content coming soon...
+(More info coming soon)
+
