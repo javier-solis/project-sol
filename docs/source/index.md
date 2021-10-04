@@ -13,6 +13,7 @@ This project is currently being maintained by Javier Solis, a MIT undergraduate 
 
 introduction
 materials
+pre-building
 /ubuntu/installing-ubuntu
 installing-ros
 terminology
