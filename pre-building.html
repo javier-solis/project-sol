@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="For Fun" href="fun.html" /><link rel="prev" title="Special Thanks" href="thanks.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Installing Ubuntu" href="ubuntu/installing-ubuntu.html" /><link rel="prev" title="Materials" href="materials.html" />
 
     <link rel="shortcut icon" href="_static/favicon.ico"/><meta name="generator" content="sphinx-4.1.1, furo 2021.07.05.beta38"/>
-        <title>About Me - Project Sol</title>
+        <title>Pre-Building - Project Sol</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css" />
@@ -91,7 +91,7 @@
       <a href="index.html"><div class="brand">Project Sol</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -112,10 +112,10 @@
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Main</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="materials.html">Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pre-building.html">Pre-Building</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Pre-Building</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="ubuntu/installing-ubuntu.html">Installing Ubuntu</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/pc-ubuntu.html">Ubuntu On Laptop</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ubuntu/jetson-ubuntu.html">Ubuntu On Jetson Nano</a></li>
@@ -145,9 +145,9 @@
 <li class="toctree-l1"><a class="reference internal" href="failures.html">Failures</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="thanks.html">Special Thanks</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">About Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about-me.html">About Me</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol">Github Repository</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/javier-solis/project-sol/blob/master/LICENSE">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fun.html">For Fun</a></li>
@@ -162,40 +162,38 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <section class="tex2jax_ignore mathjax_ignore" id="about-me">
-<h1>About Me<a class="headerlink" href="#about-me" title="Permalink to this headline">¶</a></h1>
-<p>My name is Javier Solis, and I am a 2024 undergraduate student from MIT. I’m also a first-generation college student that grew up on a suburub outside Chicago, IL.</p>
-<p>During the Spring and Summer terms of 2021, Project Sol was the focus of my UROP under Ed Moriarty. You can read more about Ed and all the wonderful people that helped me with this project over at the <a class="reference internal" href="thanks.html"><span class="doc std std-doc">thank you page</span></a>. Most of my work was carried out in room 4-409 of the Edgerton Center, and individual studying at home. Although this project is far from finished, I hope that the work I’ve put into it so far is of great use for you, the reader. Below are a few of my contact information, feel free to reach out if you have any questions or suggestions!</p>
-<section id="contact-info">
-<h2>Contact Info<a class="headerlink" href="#contact-info" title="Permalink to this headline">¶</a></h2>
-<p><strong>Email:</strong> javsolis (at) mit (dot) edu</p>
-</section>
+        <section class="tex2jax_ignore mathjax_ignore" id="pre-building">
+<h1>Pre-Building<a class="headerlink" href="#pre-building" title="Permalink to this headline">¶</a></h1>
+<p>Although actual building will take place quite a few steps later, there are some essential modifications we must take on our Jetson Nano
+before working with it.</p>
+<p>One of these additions is the installation of a Wi-Fi module on the Jetson. Instead of repeating information, a nice guide for this can be found <a class="reference external" href="https://www.jetsonhacks.com/2019/04/08/jetson-nano-intel-wifi-and-bluetooth/">here</a>!</p>
+<p>Another addition that has to be carried out is maximizing the amount of power that the Jetson can take in. To do this, a specific header pin must be removed. An external guide can be found <a class="reference external" href="https://www.jetsonhacks.com/2019/04/10/jetson-nano-use-more-power/">here</a>!</p>
 </section>
 
       </article>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="fun.html">
+          <a class="next-page" href="ubuntu/installing-ubuntu.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">For Fun</div>
+                <div class="title">Installing Ubuntu</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="thanks.html">
+          <a class="prev-page" href="materials.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Special Thanks</div>
+                <div class="title">Materials</div>
                 
               </div>
             </a>
@@ -209,7 +207,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="_sources/about-me.md.txt"
+            <a class="muted-link" href="_sources/pre-building.md.txt"
                rel="nofollow">
               Show Source
             </a>
@@ -217,27 +215,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            Contents
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">About Me</a><ul>
-<li><a class="reference internal" href="#contact-info">Contact Info</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
